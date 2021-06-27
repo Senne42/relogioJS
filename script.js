@@ -1,5 +1,5 @@
 // Declarando variaveis
-var data, hora, minuto, segundo, animar;
+var data, hora, minuto, segundo, dia, mes, ano, animar;
 
 
 // Função de inicialização para atribuir valores inicais as variaveis
@@ -7,6 +7,9 @@ function init()
 {
 
     data = new Date();
+    dia = data.getDate();
+    mes = data.getMonth();
+    ano = data.getFullYear();
     hora = data.getHours();
     minuto = data.getMinutes();
     segundo = data.getSeconds();
@@ -38,6 +41,9 @@ function relogio()
     escrever('segundo', segundo); // chama a função escrever passando o paramentro com nome do Id e valor que será aplicado
     escrever('minuto', minuto);    // chama a função escrever passando o paramentro com nome do Id e valor que será aplicado
     escrever('hora', hora); // chama a função escrever passando o paramentro com nome do Id e valor que será aplicado
+    escrever('dia', dia);
+    escrever('mes', mes);
+    escrever('ano', ano);
     animar = setTimeout(relogio,1000); // aplica o temporizador de 1s para repetir a função
 };
 
