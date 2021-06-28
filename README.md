@@ -1,4 +1,7 @@
 Projeto simples em JavaScript para aprendizado!
+
+[ ⌚ CLIQUE AQUI PARA EXIBIR O RELÓGIO  ⌚](https://senne42.github.io/relogioJS/index.html)
+
 # OBJETIVOS 🎯
 ## OBJETIVOS PRIMÁRIOS 
 
