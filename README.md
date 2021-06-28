@@ -10,9 +10,9 @@ Projeto simples em JavaScript para aprendizado!
  - [x] Exibir segundo
 ## OBJETIVOS EXTRAS
  - [x] Exibir data completa
- - [ ] Pedir nome do usuário
- - [ ] Exibir nome do usuário
+ - [x] Pedir nome do usuário
+ - [x] Exibir nome do usuário
  - [x] Estilizar a exibição dos elementos do relogio
- - [ ] Estilizar a exibição do texto de boas-vindas
+ - [x] Estilizar a exibição do texto de boas-vindas
  - [x] Implementar animações de texto
  - [ ] Corrigir horário ao voltar para a pagina
