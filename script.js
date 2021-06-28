@@ -1,5 +1,5 @@
 // Declarando variaveis
-var data, hora, minuto, segundo, dia, mes, ano, animar;
+var data, hora, minuto, segundo, dia, mes, ano, nome, animar;
 
 
 // Função de inicialização para atribuir valores inicais as variaveis
@@ -9,11 +9,28 @@ function init()
     data = new Date();
     dia = data.getDate();
     mes = data.getMonth();
-    mes++;
     ano = data.getFullYear();
     hora = data.getHours();
     minuto = data.getMinutes();
-    segundo = data.getSeconds();
+    segundo = data.getSeconds();    
+    nome = prompt("Olá, qual é o seu nome?")
+
+    switch(mes)
+    {
+        case 0 : mes = 'JANEIRO'; break;
+        case 1 : mes = 'FEVEREIRO'; break;
+        case 2 : mes = 'MARÇO'; break;
+        case 3 : mes = 'ABRIL'; break;
+        case 4 : mes = 'MAIO'; break;
+        case 5 : mes = 'JUNHO'; break;
+        case 6 : mes = 'JULHO'; break;
+        case 7 : mes = 'AGOSTO'; break;
+        case 8 : mes = 'SETEMBRO'; break;
+        case 9 : mes = 'OUTUBRO'; break;
+        case 10 : mes = 'NOVEMBRO'; break;
+        case 11 : mes = 'DEZEMBRO'; break;
+    }
+    
     relogio();
 };
 
@@ -45,6 +62,7 @@ function relogio()
     escrever('dia', dia);
     escrever('mes', mes);
     escrever('ano', ano);
+    escrever('nome', nome);
     animar = setTimeout(relogio,1000); // aplica o temporizador de 1s para repetir a função
 };
 
