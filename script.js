@@ -9,6 +9,7 @@ function init()
     data = new Date();
     dia = data.getDate();
     mes = data.getMonth();
+    mes++;
     ano = data.getFullYear();
     hora = data.getHours();
     minuto = data.getMinutes();
@@ -53,7 +54,7 @@ function escrever(id,valor) // função que recebe Id do elemento HTML que será
     {
         valor = '0' + valor; 
     };
-    document.getElementById(id).innerHTML=valor;
+    document.getElementById(id).innerHTML=valor; //insere o valor no html onde id = id
 };
 
 window.onload=init;
