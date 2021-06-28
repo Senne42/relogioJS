@@ -12,5 +12,7 @@ Projeto simples em JavaScript para aprendizado!
  - [x] Exibir data completa
  - [ ] Pedir nome do usuário
  - [ ] Exibir nome do usuário
- - [x] Estilizar a exibição dos elementos
+ - [x] Estilizar a exibição dos elementos do relogio
+ - [ ] Estilizar a exibição do texto de boas-vindas
  - [x] Implementar animações de texto
+ - [ ] Corrigir horário ao voltar para a pagina
