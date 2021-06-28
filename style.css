@@ -1,4 +1,55 @@
-p
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body
 {
-    word-wrap: normal;
+    background: rgb(203,237,231);
+    background: linear-gradient(180deg, rgba(203,237,231,1) 55%, rgba(227,202,223,1) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#relogio
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.relogio_fundo
+{
+    
+}
+#relogio_horas
+{
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    margin-top: 40px;
+    font-size: 70px;
+    max-width: 450px;
+    min-width: 449px;
+    text-shadow:
+    0 0 10px red,
+    0 0 15px red;
+}
+#rodape
+{
+  height: 5%;
+  width: 99%;
+  position: absolute;
+}
+#rodape p
+{
+  color: rgb(0, 0, 0);
+  text-shadow:
+  0 0 10px rgb(209, 138, 200),
+  0 0 1px white;
 }
